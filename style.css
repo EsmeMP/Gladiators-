@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-primary:#1d3439;
+    --color-light:#b3daff;
+    --color-white:rgb(251, 245, 245);
+    --color-black:#000000;
+    --font-medium:1.4rem;
+    --font-large:1.6rem;
+}
+
+header {
+    width: 100%;
+    height: 140px; 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-icons-container {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    background-color: black;
+    border-top: 25px solid rgb(93, 93, 93);
+}
+
+header .icons span {
+    color: var(--color-white);
+}
+
+.header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color:white;
+}
+
+nav .logo-Gladiators {
+    margin-left: 50px;
+}
+
+nav .inicio-Sesión{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .inicio-Sesión a{
+    color: #ffff00;
+    border-bottom: 2px solid  #ffff00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .Ventas{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .Ventas a{
+    color:  #ffff00 ;
+    border-bottom: 2px solid  #ffff00  ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .Productos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .Productos a{
+    color:  #ffff00;
+    border-bottom: 2px solid  #ffff00  ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .Usuarios{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .Usuarios a{
+    color:  #ffff00 ;
+    border-bottom: 2px solid  #ffff00  ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .Soporte{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .Soporte a{
+    color:  #ffff00 ;
+    border-bottom: 2px solid  #ffff00  ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .Cerrar-sesión{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .Cerrar-sesión a{
+    color: #ffff00 ;
+    border-bottom: 2px solid #ffff00 ;
+    font-weight: bold;
+    font-size: 20px;
+}
