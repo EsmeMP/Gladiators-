@@ -6,6 +6,7 @@
     <title>Registrar Venta Gladiator's</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" type="text/css"   href="../styles/font/flaticon.css">
+    <link rel="stylesheet" href="../Ventas CSS/regVenta.css">
 </head>
 <body>
     <header>
@@ -43,8 +44,8 @@
             </section>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="sec-title">
             <!-- Info de la seccion y el numero de la venta -->
             <h1>Ventas</h1>
             <h5>No.Venta</h5>
@@ -52,10 +53,16 @@
         </section>
         <section class="barra_busqueda">
             <!-- Aqui se encuentra la barra de busqueda -->
-                <form action="/search" method="GET">
-                    <input type="text" name="buscar" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </form>
+            <form class="textbox" action="/search" method="GET">
+                <input type="text" name="buscar" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+                <svg class="icon" width="24" height="24" viewBox="0 0 24 24">
+                <!-- SVG content -->
+                </svg>
+                <svg class="icon" width="24" height="24" viewBox="0 0 24 24">
+                <!-- SVG content -->
+                </svg>
+            </form>
         </section>
         <!-- Esta de aqui es la tabla -->
         <section class="table_ventas">

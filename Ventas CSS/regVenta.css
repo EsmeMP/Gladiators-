@@ -1,0 +1,107 @@
+/* Contenedor de la mayoria de elementos */
+.container {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 85%;
+    height: 60%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+
+/* Contenedor  de ventas, noVenta, y el id */
+.sec-title{
+    padding: 20px;
+}
+
+/* Palabra Ventas XD */
+.sec-title h1 {
+    position: absolute;
+    bottom: 490px;
+    font-family: Abel;
+    font-size: 60px;
+    font-weight: 400;
+    color: #323842FF;
+}
+
+/* NoVenta y Id de la venta */
+.sec-title h5 {
+    top: 75px;
+    left: 677px;
+    width: 129px;
+    height: 42px;
+    font-family: Epilogue;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #171A1FFF;
+}
+
+/* Id de la venta (numero) */
+.sec-title h5:nth-child(3) {
+    width: 90px;
+    height: 40px;
+    padding: 0 12px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    background: #FFEB99FF;
+    border-radius: 4px;
+}
+
+/* Texto dentro de la barra de busqueda "Buscar" */
+.textbox input {
+    width: 80%;
+    height: 90%;
+    padding-left: 12px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    border-radius: 4px;
+    border: 2px solid #EFB034FF;
+}
+
+/* Boton de busqueda XD */
+.textbox button {
+    font-family: Inter;
+    font-size: 70%;
+    font-weight: 700;
+    background-color: #EFB034FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Propiedad hover de la barra */
+.textbox input:hover {
+    background: #FFFFFFFF;
+    border-color: #FFEB99FF;
+}
+
+/* Propiedad hover del boton */
+.textbox button:hover {
+    background-color: rgb(230, 155, 4);
+}
+
+/* Propiedad focus del input (letra) */
+.textbox input:focus {
+    outline: none;
+    color: #EFB034FF;
+    border: 2px solid #EFB034FF;
+}
+
+
+Amarillo Pastel: #FFFFCC
+Amarillo Normal: #FFD700
+Mostaza: #D4AF37
+Amarillo Claro: #FFFF99
+Amarillo Dorado: #FFDF00
+Amarillo Mostaza: #FFDB58
+Amarillo Ocre: #CC7722
+Amarillo Ámbar: #FFBF00
+Amarillo Dorado Oscuro: #B8860B
+Amarillo Maíz: #FBEC5D
