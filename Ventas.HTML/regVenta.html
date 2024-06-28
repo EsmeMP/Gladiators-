@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" type="text/css"   href="../styles/font/flaticon.css">
 </head>
-<body> 
+<body>
     <header>
         <section class="incons-container">
-            <!-- Aqui van  los iconos de las redes sociales, eslogan, correo y horarios -->
+            <!-- Aqui van los iconos de las redes sociales, eslogan, correo y horarios -->
             <div class="incons">
                 <a href="/"><span class="flaticon-001-facebook"></span></a>
                 <a href="/"><span class="flaticon-003-whatsapp"></span></a>
@@ -26,7 +26,7 @@
                 <p>Lun-Vie 10:00a.m--8:00p.m
                 Sab-Dom 9:00a.m--9:00p.m</p>
             </div>
-        </section> 
+        </section>
         <nav>
             <!-- Aqui va el logo y nombre de la tienda y el nombre de las secciones -->
             <section class="logo-gladiators">
@@ -43,4 +43,81 @@
             </section>
         </nav>
     </header>
+    <main>
+        <section>
+            <!-- Info de la seccion y el numero de la venta -->
+            <h1>Ventas</h1>
+            <h5>No.Venta</h5>
+            <h5>0000025</h5>
+        </section>
+        <section class="barra_busqueda">
+            <!-- Aqui se encuentra la barra de busqueda -->
+                <form action="/search" method="GET">
+                    <input type="text" name="buscar" placeholder="Buscar...">
+                    <button type="submit">Buscar</button>
+                </form>
+        </section>
+        <!-- Esta de aqui es la tabla -->
+        <section class="table_ventas">
+            <table>
+                <thead>
+                    <tr>
+                    <th>Código</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>64331857219</td>
+                        <td>Gorra Deportiva</td>
+                        <td>1</td>
+                        <td>80.0</td>
+                        <td>80.0</td>
+                    </tr>
+                    <tr>
+                        <td>34618768513</td>
+                        <td>Gafas de Sol</td>
+                        <td>2</td>
+                        <td>50.0</td>
+                        <td>100.0</td>
+                    </tr>
+                    <tr>
+                        <td>3461554645</td>
+                        <td>Mochila Deportiva</td>
+                        <td>1</td>
+                        <td>350.0</td>
+                        <td>350.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- Aqui se va a visualizar un tipo ticket del total -->
+        <section class="pre-visualizacion">
+            <div>
+                <!-- Logotipo y numero de venta, -->
+                <img src="../img/Logotipo_Gladiator's-Photoroom.png" alt="Logotipo Gladiator's">
+                <p>No. Venta: 0000025</p>
+            </div>
+            <div>
+                <!-- aqui va el atendido por: -->
+                <p>Atendido por:</p>
+                <p>Persona Random</p>
+            </div>
+            <div>
+                <!-- Aqui va el efectivo recibido -->
+                <p>Efectivo recibido</p>
+                <p>Ex.500.00</p>
+            </div>
+            <div>
+                <!-- Aqui va el vuelto , monto, subtotal, total -->
+                <p>Vuelto: $0.00</p>
+                <p>Monto Efectivo: $32.30</p>
+                <p>Subtotal: $500.00</p>
+                <p>Total: $500.00</p>
+            </div>
+        </section>
+    </main>
 </body>
