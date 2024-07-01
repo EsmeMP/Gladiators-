@@ -171,7 +171,7 @@ nav .Cerrar-sesión a{
 .correo-a a{
     color: var(--color-primary);
     text-decoration: none;
-    font-style: italic;
+    font-style: italic; 
 }
 
 .correo-a a:active {
@@ -236,9 +236,14 @@ nav {
     color: var(--color-primary);
 }
 
+.iniciarsesion{
+    background-color: #131313;
+}
 
-
-
-
+.iniciarsesion img{
+    display: grid;
+    width: 60%;
+    height: 700px;
+}
 
 
